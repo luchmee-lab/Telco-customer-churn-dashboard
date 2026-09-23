@@ -34,16 +34,30 @@ The report is structured into four logical pages, guiding stakeholders from a ma
 1. **Executive Overview (Page 1):** 
    - High-level KPI cards tracking **Total Customers** and overall **Churn Rate %**.
    - Global slicers allowing cross-filtering across the entire report.
+
+     Executive Summary
+     <img width="1202" height="677" alt="Screenshot 2026-09-22 225010" src="https://github.com/user-attachments/assets/e3a51deb-8e3e-4325-bda0-3f8bdc233f58" />
+
 2. **Customer Demographics & Profiles (Page 2):** 
    - Explores personal attributes including senior status, partners, and dependents.
    - Highlights how family structures impact customer retention and loyalty.
+
+     Customer Demographics
+     <img width="1202" height="675" alt="Screenshot 2026-09-22 225107" src="https://github.com/user-attachments/assets/0cf05f37-e9d0-4d11-afef-ebba8c3bd587" />
+
 3. **Service, Contract & Billing Risk Analysis (Page 3):** 
    - Evaluates operational and financial drivers, isolating contract types (Month-to-Month vs. Long-term), internet service tiers (Fiber Optic vs. DSL), and payment methods.
    - Proves that financial flexibility and lack of commitment are primary root causes of customer loss.
+
+     Contract & Service Analytics
+     <img width="1198" height="675" alt="Screenshot 2026-09-22 230257" src="https://github.com/user-attachments/assets/ad911eca-360a-4b96-a751-6915f02e78f8" />
+
 4. **Strategic Recommendations & Retention Action Plan (Page 4):** 
    - Features a tenure lifecycle curve exposing the critical **0–6 month early-tenure churn spike**.
    - Delivers executive-level recommendations (e.g., onboarding touchpoints, contract migration incentives, and automatic bundling of security add-ons).
 
+     Strategic Recommendations & Retention Action
+      <img width="1201" height="676" alt="Screenshot 2026-09-22 230414" src="https://github.com/user-attachments/assets/278ed995-061a-4436-8f41-46c5f3f05483" />
 ---
 
 ## 🔑 Key Business Insights
@@ -56,10 +70,11 @@ The report is structured into four logical pages, guiding stakeholders from a ma
 
 ## 📂 Repository Contents
 * `Telco_Customer_Churn_Dashboard.pbix` - The complete interactive Power BI source file.
-* `/Screenshots` - High-resolution images of each dashboard page for quick viewing.
+* `telco_churn_cleaned` - The preprocessed dataset cleaned via Python.
+  [telco_churn_cleaned.csv](https://github.com/user-attachments/files/32568722/telco_churn_cleaned.csv)
 
 ---
 
 ## 💡 How to View This Project
 1. **Interactive Experience:** Download the `.pbix` file and open it using [Power BI Desktop](https://powerpbifree.com/).
-2. **Quick Review:** Check out the `/Screenshots` folder in this repository to preview all four pages of the final dashboard.
+
